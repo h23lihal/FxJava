@@ -25,8 +25,11 @@ public class HelloApplication extends Application {
         stage.setWidth(420);
         stage.setHeight(420);
         stage.setResizable(false);
-        stage.setX(50);
-        stage.setY(50);
+        //stage.setX(50);
+        //stage.setY(50);
+        stage.setFullScreen(false);
+        //stage.setFullScreenExitHint("YOU CAN'T ESCAPE unless you press q");
+        //stage.setFullScreenExitKeyCombination(KeyCombination.valueof("q"));
 
         stage.setScene(scene);
 
